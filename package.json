@@ -1,0 +1,21 @@
+{
+  "name": "entregasclase15",
+  "version": "1.0.0",
+  "description": "entregas para la clase n15",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss estilos/main.scss estilos/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuquitasSuarez/EntregasClase15.git"
+  },
+  "author": "Lucas Suarez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuquitasSuarez/EntregasClase15/issues"
+  },
+  "homepage": "https://github.com/LuquitasSuarez/EntregasClase15#readme"
+}
