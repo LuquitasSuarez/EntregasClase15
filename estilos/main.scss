@@ -1,3 +1,5 @@
-h1{
-    color: red;
-}
+@import "parciales/reset";
+@import "parciales/font";
+@import "parciales/header";
+@import "parciales/main";
+@import "parciales/footer";
