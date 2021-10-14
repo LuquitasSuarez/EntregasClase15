@@ -224,35 +224,55 @@ nav {
       height: 110vh; } }
 
 .article {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 350px;
-  align-items: center;
-  justify-items: center;
-  margin: 10px 70px;
-  color: #333333; }
-  .article section {
-    width: 300px;
-    height: 310px;
-    background-color: #ece2c6;
-    border-radius: 10px;
-    text-align: center; }
-    .article section img {
-      width: 200px;
-      height: 170px;
+  margin-top: 30px;
+  height: 775px; }
+  .article__arriba {
+    background-color: #E8E8E8;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    .article__arriba--img {
+      height: 60px; }
+    .article__arriba--h2 {
+      font-size: 1.3rem; }
+  .article__abajo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    align-items: center;
+    justify-items: center;
+    margin: 10px 70px;
+    color: #333333;
+    height: 200PX; }
+    .article__abajo section {
+      width: 300px;
+      height: 315px;
       border-radius: 10px;
       text-align: center; }
-      .article section img div h2 {
-        font-size: 20px;
-        text-align: center; }
-      .article section img div p {
-        font-size: 15px;
-        text-align: center; }
+      .article__abajo section img {
+        width: 200px;
+        height: 170px;
+        text-align: center;
+        margin-top: 5px;
+        border-radius: 10px; }
+        .article__abajo section img div h2 {
+          font-size: 20px;
+          text-align: center; }
+        .article__abajo section img div p {
+          font-size: 15px;
+          text-align: center; }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .article {
-    display: flex;
-    flex-direction: column;
-    margin: 10px; }
-    .article section {
-      margin: 10px; } }
+    height: 2100px; }
+    .article__abajo {
+      display: flex;
+      flex-direction: column;
+      margin: 10px; }
+      .article__abajo section {
+        margin: 10px; } }
