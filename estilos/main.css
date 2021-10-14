@@ -35,6 +35,11 @@ nav {
       nav div li :hover {
         color: #fff !important; }
 
+@media (max-width: 768px) {
+  .back {
+    background-color: #f7e9c3;
+    justify-content: center; } }
+
 .main__img {
   width: 100%;
   height: 90vh;
