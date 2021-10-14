@@ -1,0 +1,33 @@
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    &__izq{
+        align-items: center;
+        justify-items: center;
+        margin: 10px;
+        display: flex;
+        &--p{
+            font-size: 15px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__der{
+        margin: 10px;
+        &--img{
+            height: 70vh;
+            width: 50vw;
+        }
+    }
+}
+@media (max-width: 700px){
+    .section{
+        display: flex;
+        flex-direction: column;
+        &__der--img{
+            height: 60vh;
+            width: 100%;
+        }
+    }
+}
