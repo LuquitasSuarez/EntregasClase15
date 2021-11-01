@@ -37,8 +37,9 @@ nav {
 
 @media (max-width: 768px) {
   .back {
-    background-color: #f7e9c3;
-    justify-content: center; } }
+    background-color: #F2C13C;
+    justify-content: center;
+    margin: 0px; } }
 
 .main__img {
   width: 100%;
@@ -48,7 +49,7 @@ nav {
 @media (max-width: 425px) {
   .main__img {
     width: 100%;
-    height: 60vh; } }
+    height: 50vh; } }
 
 .footer {
   display: grid;
@@ -221,7 +222,7 @@ nav {
       display: flex;
       flex-direction: column;
       width: 300px;
-      height: 110vh; } }
+      height: 100vh; } }
 
 .article {
   margin-top: 30px;
