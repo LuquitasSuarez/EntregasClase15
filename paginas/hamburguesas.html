@@ -8,6 +8,7 @@
         <meta name="descripcion" content="nuestras hamburguesas"> 
         <meta name="keywords" content="COMIDA, HAMBURGUESA, TAKE AWAY, MEAT HOUSE, HAMBURGUESERIA">
         <link rel="shortcut icon" href="../img/hamburguesaConQueso.png">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
         <title>Meat House</title>
         <link rel="stylesheet" href="../estilos/main.css">
     </head>
@@ -33,6 +34,11 @@
                             <a class="nav-link active" href="./sobreNosotros.html">sobre nosotros</a>
                         </li>
                     </ul>
+                    <ul className="navbar-nav ml-auto">
+                        <li className="nav-item ml-auto">
+                            <button id="botonCarrito" data-bs-toggle="modal" data-bs-target="#idModal" class="btn btn-dark"><i class="fas fa-shopping-cart"></i></button>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
@@ -41,61 +47,25 @@
                 <img src="../img/hamburguesaSucursales.png" alt="HamburguesaConQueso" class="sucursales__arriba--img">
                 <h2 class="sucursales__arriba--h2">NUESTRAS HAMBURGUESAS</h2>
             </div>
-            <div class="article__abajo">
-                <section>
-                    <img src="../img/imagenMenu1.jpg" alt="imagenMenu1" class="efecto">
-                    <div>
-                        <h2>Secret mh</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blend de carne (120gr x medallon) <br> doble cheddar panceta cebolla <br> caramelizada y salsa secreta.
-                        </p>
+        <div id="divProductos" class="row"></div>
+        <div class="modal fade" id="idModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Carrito de compras</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </section>
-                <section>
-                    <img src="../img/imagenMenu2.jpg" alt="imagenMenu2" class="efecto">
-                    <div>
-                        <h2>Meat cheese</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blend de carne (120g x medallon) <br> doble cheddar y salsa a eleccion.
-                        </p>
+                    <div class="modal-body" id="modal-body">
+                    
                     </div>
-                </section>
-                <section>
-                    <img src="../img/imagenMenu3.jpg" alt="imagenMenu3" class="efecto">
-                    <div>
-                        <h2>Royale meat</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blen de carne (120gr x medallon) <br> doble cheddar cebolla y salsa royale.
-                        </p>
+                    <div class="row ml-ato">
+                        <p id="precioTotal"></p>
                     </div>
-                </section>
-                <section>
-                    <img src="../img/imagenMenu4.jpg" alt="imagenMenu4" class="efecto">
-                    <div>
-                        <h2>Blue meat</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blend de carne (120gr x medallon) <br> queso azul, rucula y cebolla caramelizada.
-                        </p>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary" id="botonFinalizarCompra">Finalizar compra</button>
                     </div>
-                </section>
-                <section>
-                    <img src="../img/imagenMenu5.jpg" alt="imagenMenu5" class="efecto">
-                    <div>
-                        <h2>Sweet meat</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blend de carne (120gr x medallon) <br> doble cheddar, panceta, aros de <br> cebolla y salsa bbq.
-                        </p>
-                    </div>
-                </section>
-                <section>
-                    <img src="../img/imagenMenu6.jpg" alt="imagenMenu6" class="efecto">
-                    <div>
-                        <h2>Classic meat</h2>
-                        <p>
-                            Pan con parmesano gratinado <br> blend de carne (120gr x medallon) <br> queso emmental, tomate, cebolla <br> juliana, panceta y mayoliva.
-                        </p>
-                    </div>
-                </section>
+                </div>
             </div>
         </div>
         <footer class="footer">
@@ -108,5 +78,7 @@
             </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="../producto.js"></script>
+        <script src="../script.js"></script>
     </body>
 </html>

@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Crispy simple",
+        "descripcion": "Medallón x120Gr., cheddar Milkaut x2, cebolla crispy y mayonesa ahumada con ajo",
+        "precio": 710.00,
+        "img": "crispy.jpg"
+    },
+    {
+        "nombre": "SWEET SIMPLE",
+        "descripcion": "Medallón x120Gr, cheddar Milkaut x2, barbacoa, aros de cebolla y panceta",
+        "precio": 740.00,
+        "img": "sweet.jpg"
+    },
+    {
+        "nombre": "Bacon simple",
+        "descripcion": "Medallón x120Gr, cheddar Milkaut x2, barbacoa y bacon triturado",
+        "precio": 710.00,
+        "img": "bacon.jpg"
+    },
+    {
+        "nombre": "secret simple",
+        "descripcion": "Medallón x120Gr, cheddar Milkaut x2, panceta y cebolla caramelizada",
+        "precio": 720.00,
+        "img": "secret.jpg"
+    },
+    {
+        "nombre": "Cheese simple",
+        "descripcion": "Medallón x120Gr, cheddar Milkaut y salsa a eleccion (Mayonesa, BBQ, salsa secreta)",
+        "precio": 670.00,
+        "img": "cheese.jpg"
+    },
+    {
+        "nombre": "Royale simple",
+        "descripcion": "Medallón x120Gr, cheddar Milkaut x2, salsa royale y cebolla en brunoisse",
+        "precio": 690.00,
+        "img": "royale.jpg"
+    },
+    {
+        "nombre": "Blue simple",
+        "descripcion": "Medallón x120Gr, queso azul, rucula, cebolla caramelizada y salsa de mayonesa y ajo",
+        "precio": 700.00,
+        "img": "blue.jpg"
+    },
+    {
+        "nombre": "Classic simple",
+        "descripcion": "Medallón x120Gr, emmental, mayoliva, panceta y cebolla en juliana",
+        "precio": 710.00,
+        "img": "classic.jpg"
+    }
+]
